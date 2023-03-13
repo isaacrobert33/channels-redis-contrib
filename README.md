@@ -1,6 +1,9 @@
 channels_redis
 ==============
 
+[![pypi](https://img.shields.io/pypi/v/channels-redis-contrib.svg)](https://pypi.python.org/pypi/channels-redis-contrib)
+
+[![pypi](https://github.com/isaacrobert33/channels-redis-contrib/workflows/Tests/badge.svg)](https://github.com/isaacrobert33/channels-redis-contrib/actions?query=workflow%3ATests)
 Provides Django Channels channel layers that use Redis as a backing store.
 
 There are two available implementations:
