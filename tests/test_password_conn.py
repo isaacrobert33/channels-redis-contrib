@@ -9,7 +9,7 @@ PASSWORD = os.getenv("REDIS_PASSWORD")
 
 
 @pytest.fixture()
-async def channel_layer():
+async def password_channel_layer():
     """
     Channel layer fixture that flushes automatically.
     """
