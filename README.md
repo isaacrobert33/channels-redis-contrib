@@ -1,12 +1,6 @@
 channels_redis
 ==============
 
-.. image:: https://github.com/django/channels_redis/workflows/Tests/badge.svg
-    :target: https://github.com/django/channels_redis/actions?query=workflow%3ATests
-
-.. image:: https://img.shields.io/pypi/v/channels_redis.svg
-    :target: https://pypi.python.org/pypi/channels_redis
-
 Provides Django Channels channel layers that use Redis as a backing store.
 
 There are two available implementations:
@@ -25,11 +19,6 @@ Installation
 .. code-block::
 
     pip install channels-redis-contrib
-
-**Note:** Prior versions of this package were called ``asgi_redis`` and are
-still available under PyPI as that name if you need them for Channels 1.x projects.
-This package is for Channels 2 projects only.
-
 
 Usage
 -----
