@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "channel-redis-contrib"
+version = "3.4.1"
+authors = [
+  { name="Isaac Robert", email="isaacrobertoluwaseun@gmail.com" },
+]
+description = "Provides Django Channels channel layers that use Redis as a backing store."
+readme = "README.md"
+requires-python = ">=3.4"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/isaacrobert33/channels-redis-contrib"
+"Bug Tracker" = "https://github.com/isaacrobert33/channels-redis-contrib/issues"
