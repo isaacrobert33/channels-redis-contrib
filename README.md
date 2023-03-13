@@ -19,16 +19,16 @@ Both layers support a single-server and sharded configurations.
 Installation
 ------------
 
-.. code-block::
+``` sh
 
     pip install channels-redis-contrib
-
+```
 Usage
 -----
 
 Set up the channel layer in your Django settings file like so:
 
-.. code-block:: python
+``` python
 
     CHANNEL_LAYERS = {
         "default": {
@@ -38,10 +38,11 @@ Set up the channel layer in your Django settings file like so:
             },
         },
     }
+``` 
 
 Or, you can use the alternate implementation which uses Redis Pub/Sub:
 
-.. code-block:: python
+``` python
 
     CHANNEL_LAYERS = {
         "default": {
@@ -51,6 +52,7 @@ Or, you can use the alternate implementation which uses Redis Pub/Sub:
             },
         },
     }
+```
 
 Possible options for ``CONFIG`` are listed below.
 
